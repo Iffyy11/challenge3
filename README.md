@@ -1,7 +1,6 @@
 # Blog Manager
 
-A simple blog/post management application with CRUD functionality.
-
+A simple blog/post management application.
 ## Features
 - View all posts in sidebar
 - Create new posts
