@@ -1,4 +1,4 @@
-/* ========== Global Styles ========== */
+
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
   background-color: #f0f4f8;
@@ -17,7 +17,6 @@ body {
   min-height: 100vh;
 }
 
-/* ========== Sidebar ========== */
 #sidebar {
   width: 300px;
   background-color: #ffffff;
@@ -57,7 +56,6 @@ body {
   color: #111827;
 }
 
-/* ========== Main Content ========== */
 #main-content {
   flex: 1;
   padding: 2.5rem;
@@ -65,7 +63,7 @@ body {
   margin: 0 auto;
 }
 
-/* ========== Post Detail Section ========== */
+
 #post-detail {
   background-color: #ffffff;
   border-radius: 10px;
@@ -100,7 +98,7 @@ body {
   font-style: italic;
 }
 
-/* ========== Forms ========== */
+
 form {
   background-color: #ffffff;
   border-radius: 10px;
@@ -139,7 +137,7 @@ form h4 {
   gap: 1rem;
 }
 
-/* ========== Buttons ========== */
+
 .btn {
   padding: 0.65rem 1.4rem;
   font-size: 1rem;
@@ -186,12 +184,10 @@ form h4 {
   background-color: #b91c1c;
 }
 
-/* ========== Hidden Utility Class ========== */
 .hidden {
   display: none !important;
 }
 
-/* ========== Responsive ========== */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
