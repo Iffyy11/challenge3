@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Blog/Post Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <aside id="sidebar">
+      <h2>Posts</h2>
+      <div id="post-list"></div>
+    </aside>
+    <main id="main-content">
+      <section id="post-detail">
+        <p class="placeholder">Select a post to see details.</p>
+      </section>
+
+      <form id="edit-post-form" class="hidden">
+        <h4>Update Post Details</h4>
+        <label for="edit-title">Title:</label>
+        <input type="text" id="edit-title" class="input" />
+        <label for="edit-content">Content:</label>
+        <textarea id="edit-content" rows="5" class="input"></textarea>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Update Post</button>
+          <button type="button" id="cancel-edit" class="btn btn-secondary">Cancel</button>
+        </div>
+      </form>
+
+      <form id="new-post-form">
+        <h3>Add New Post</h3>
+        <label for="new-title">Title:</label>
+        <input type="text" id="new-title" class="input" required />
+        <label for="new-content">Content:</label>
+        <textarea id="new-content" class="input" rows="4" required></textarea>
+        <label for="new-author">Author:</label>
+        <input type="text" id="new-author" class="input" required />
+        <button type="submit" class="btn btn-success">Add Post</button>
+      </form>
+    </main>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>

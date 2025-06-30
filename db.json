@@ -1,0 +1,18 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Another week",
+      "content": "Here's another interesting post for you to read.",
+      "author": "Jane Doe",
+      "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id":2,
+      "title": "Many Days ",
+      "content": "Here is another book",
+      "author": "Ifra"
+     
+    }
+  ]
+}
